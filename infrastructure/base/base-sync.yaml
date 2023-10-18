@@ -11,3 +11,6 @@ spec:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
+  runnerPodTemplate:
+    spec:
+      image: ghcr.io/weaveworks/tf-runner-azure:v0.15.1
